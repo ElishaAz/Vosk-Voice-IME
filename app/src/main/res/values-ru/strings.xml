@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Mic  -->
+
+    <string name="mic_info_error">Ошибка</string>
+    <string name="mic_info_preparing">Подготовка распознавателя</string>
+    <string name="mic_info_ready">Готово</string>
+    <string name="mic_info_error_failed">Не удалось запустить распознаватель %s</string>
+    <string name="mic_info_recording">Скажите что нибудь</string>
+
+    <string name="toast_error_no_previous_ime">Нет предыдущего IME!</string>
+    <string name="mic_error_no_recognizers">Распознаватель не установлен!</string>
+    <string name="mic_error_no_permission">Разрешение на использование микрофона не предоставлено!</string>
+    <string name="mic_error_recognizer_error">Ошибка распознавателя</string>
+    <string name="mic_error_mic_in_use">Микрофон уже используется!</string>
+
+    <string name="model_dialog_title">Выберете модель</string>
+
+    <string name="button_cancel">Отмена</string>
+    <string name="button_select">Выбрать</string>
+    <string name="button_default">По умолчанию</string>
+    <string name="button_confirm">OK</string>
+
+
+    <string name="title_setup">Настройка</string>
+    <string name="title_models">Модели</string>
+    <string name="title_ui">Интерфейс</string>
+    <string name="title_keyboard">Клавиатура</string>
+    <string name="title_logic">Логика</string>
+
+    <!--  Setup  -->
+
+    <string name="mic_permission_not_granted">Разрешить Микрофон</string>
+    <string name="mic_permission_granted">Дано разрешение на Микрофон</string>
+
+    <string name="keyboard_not_enabled">Включить клавиатуру</string>
+    <string name="keyboard_enabled">Клавиатура включена</string>
+
+    <string name="switch_keyboard">Сменить клавиатуру</string>
+    <string name="open_ime_switcher">Открыть IME переключатель</string>
+    <string name="open_ime_note">Примечание. Вы можете открыть переключатель IME когда клавиатура открыта, нажав и удерживая кнопку микрофона.</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!--  Models Preferences  -->
+    <string name="menu_models_add_server">Добавить сервер Vosk</string>
+    <string name="dialog_add_vosk_server_title">Добавить сервер Vosk</string>
+    <string name="dialog_add_vosk_server_hostname">Адрес</string>
+    <string name="dialog_add_vosk_server_port">Порт</string>
+    <string name="dialog_add_vosk_server_add">Добавить</string>
+    <string name="dialog_add_vosk_server_cancel">Отмена</string>
+
+    <string name="models_download_state_unknown">Неизвестно</string>
+    <string name="models_download_state_pending">Ожидание</string>
+    <string name="models_download_state_download_started">Скачивание</string>
+    <string name="models_download_state_download_finished">Скачивание завершено</string>
+    <string name="models_download_state_unzip_started">Распаковка zip</string>
+    <string name="models_download_state_unzip_finished">Распаковка завершена</string>
+    <string name="models_download_state_finished">Завершено</string>
+    <string name="models_download_state_error">Ошибка</string>
+    <string name="models_download_state_canceled">Отменено</string>
+
+    <string name="models_download_state">Состояние: %s</string>
+    <string name="models_pending_download_state">Состояние: Ожидание загрузки</string>
+
+    <string name="models_model_display_name_null">Null</string>
+
+    <string name="models_download_dialog_title">Скачать модель</string>
+
+    <string name="models_import_dialog_import">Импорт</string>
+    <string name="models_import_dialog_title">Импортировать модель</string>
+    <string name="models_import_dialog_text_before_link">Вручную загрузите модель Vosk с</string>
+    <string name="models_import_dialog_text_link">вебсайта Vosk</string>
+    <string name="models_import_dialog_text_after_link"> - обязательно выберите «маленькую» модель, а затем выберите ее в средстве выбора файлов после нажатия кнопки «Импорт».</string>
+
+    <!-- UI Preferences -->
+    <string name="ui_light_theme_header">Светлая тема</string>
+    <string name="ui_light_theme_foreground_material_you_title">Использовать Material You для цвета переднего плана</string>
+    <string name="ui_light_theme_foreground_color_title">Передний цвет</string>
+    <string name="ui_light_theme_background_color_title">Фоновый цвет</string>
+
+
+    <string name="ui_dark_theme_header">Тёмная тема</string>
+    <string name="ui_dark_theme_foreground_material_you_title">Использовать Material You для цвета переднего плана</string>
+    <string name="ui_dark_theme_foreground_color_title">Передний цвет</string>
+    <string name="ui_dark_theme_background_color_title">Фоновый цвет</string>
+
+    <string name="ui_theme_reset_color">Сбросить</string>
+
+    <!--  Logic Preferences  -->
+    <string name="logic_logic_header">Логика</string>
+    <string name="logic_keep_screen_awake_title">Держить экран включенным</string>
+    <string name="logic_listen_immediately_title">Слушать немедленно</string>
+    <string name="logic_listen_immediately_summery">Начинать прослушивание сразу же как только распознаватель будет готов.</string>
+    <string name="logic_auto_switch_back_title">Автоматическое переключение назад</string>
+    <string name="logic_auto_switch_back_summery">Автоматически переключаться на предыдущую клавиатуру, когда клавиатура скрыта.</string>
+    <string name="logic_keep_model_in_ram_title">Хранить модель в оперативной памяти (когда закрыта)</string>
+    <string name="logic_keep_model_in_ram_summery">Сохраняет модель в оперативной памяти, чтобы ускорить открытие клавиатуры. Требует больше оперативной памяти.</string>
+    <string name="logic_auto_capitalize_title">Автоматически капитализировать</string>
+    <string name="logic_auto_capitalize_summary">Автоматически делать первые буквы большими после периода (где возможно).</string>
+
+    <string name="p_keep_screen_awake_mode_never">Никогда</string>
+    <string name="p_keep_screen_awake_mode_when_listening">Когда слушает</string>
+    <string name="p_keep_screen_awake_mode_when_open">Когда открыто</string>
+
+    <!--  Keyboard Preferences  -->
+    <string name="keyboard_height_header">Высота клавиатуры</string>
+
+    <string name="keyboard_height_portrait_title">Высота клавиатуры в портретном режиме (%)</string>
+    <string name="keyboard_height_landscape_title">Высота клавиатуры в альбомном режиме (%)</string>
+
+    <string name="keyboard_keys_header">Клавиши</string>
+    <string name="keyboard_keys_top_title">Верхние клавиши</string>
+    <string name="keyboard_keys_left_title">Левые клавиши</string>
+    <string name="keyboard_keys_right_title">Правые клавиши</string>
+
+    <string name="keyboard_keys_dialog_key_entry">Метка: %1$s, Текст: %2$s</string>
+    <string name="keyboard_keys_dialog_key_label_label">Метка</string>
+    <string name="keyboard_keys_dialog_key_text_label">Текст</string>
+
+
+    <!--  Notifications  -->
+    <string name="notification_download_channel_name">Скачивание модели</string>
+    <string name="notification_download_channel_description">Уведомления о статусе загрузки модели.</string>
+    <string name="notification_download_title">Скачивание модели</string>
+    <string name="notification_download_content_unknown">Загрузка…</string>
+    <string name="notification_download_content_downloading">Скачивание в процессе…</string>
+    <string name="notification_download_content_unzipping">Извлечение модели…</string>
+    <string name="notification_download_content_finished">Скачивание завершено!</string>
+    <string name="notification_download_content_error">Ошибка скачивания модели</string>
+</resources>
