@@ -13,6 +13,10 @@ enum class ModelLink(
     ENGLISH_US(
         "https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip",
         Locale.US
+    )
+    ENGLISH_GB(
+        "https://alphacephei.com/vosk/models/vosk-model-small-en-gb-0.15.zip",
+        Locale("en", "GB")
     ),
     ENGLISH_IN(
         "https://alphacephei.com/vosk/models/vosk-model-small-en-in-0.4.zip",
