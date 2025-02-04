@@ -1,0 +1,1 @@
+An open-source on-device voice IME (keyboard) for Android using the Vosk library
